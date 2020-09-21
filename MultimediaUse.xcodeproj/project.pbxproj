@@ -13,6 +13,8 @@
 		A99E5E192510A13B00937AA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99E5E172510A13B00937AA7 /* Main.storyboard */; };
 		A99E5E1B2510A13E00937AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99E5E1A2510A13E00937AA7 /* Assets.xcassets */; };
 		A99E5E1E2510A13E00937AA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99E5E1C2510A13E00937AA7 /* LaunchScreen.storyboard */; };
+		A99E5E262510A5B700937AA7 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A99E5E252510A5B600937AA7 /* test.mp3 */; };
+		A9E676432511967C00DD74FA /* IPhone3G.mov in Resources */ = {isa = PBXBuildFile; fileRef = A9E676422511967C00DD74FA /* IPhone3G.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A99E5E1A2510A13E00937AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A99E5E1D2510A13E00937AA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A99E5E1F2510A13E00937AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99E5E252510A5B600937AA7 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		A9E676422511967C00DD74FA /* IPhone3G.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IPhone3G.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		A99E5E102510A13B00937AA7 /* MultimediaUse */ = {
 			isa = PBXGroup;
 			children = (
+				A99E5E252510A5B600937AA7 /* test.mp3 */,
+				A9E676422511967C00DD74FA /* IPhone3G.mov */,
 				A99E5E112510A13B00937AA7 /* AppDelegate.swift */,
 				A99E5E132510A13B00937AA7 /* SceneDelegate.swift */,
 				A99E5E152510A13B00937AA7 /* ViewController.swift */,
@@ -125,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E676432511967C00DD74FA /* IPhone3G.mov in Resources */,
 				A99E5E1E2510A13E00937AA7 /* LaunchScreen.storyboard in Resources */,
 				A99E5E1B2510A13E00937AA7 /* Assets.xcassets in Resources */,
+				A99E5E262510A5B700937AA7 /* test.mp3 in Resources */,
 				A99E5E192510A13B00937AA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
